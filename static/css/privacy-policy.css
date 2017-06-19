@@ -489,11 +489,7 @@ html#iubenda_policy {
     box-shadow: 0 0 1px #a3a3a3, 0 1px 1px #a3a3a3;
     padding: 6px
 }
-#iubenda_policy footer {
-    margin-top: 17px;
-    padding-top: 17px;
-    border-top: 1px solid #eee
-}
+
 #iubenda_policy hr {
     padding-top: 15px;
     margin: 0 0 15px 0
@@ -1185,11 +1181,11 @@ html#iubenda_policy,
 }
 #iubenda_policy .iub_content {
     position: relative;
-    padding: 0 0 30px;
+    padding: 0 0 0;
     margin: 0 auto;
     -webkit-border-radius: 3px 3px 0 0;
     -moz-border-radius: 3px 3px 0 0;
-    border-radius: 3px 3px 0 0
+    border-radius: 3px 3px 0 0;
 }
 #iubenda_policy #wbars {
     position: relative;
@@ -1245,7 +1241,7 @@ html#iubenda_policy,
 }
 #iubenda_policy .iconed ul li h3 {
     padding-top: 10px;
-    color: #ffffff
+    color:#b41e4a;
 }
 #iubenda_policy h4 {
     font-weight: bold;
@@ -1359,7 +1355,7 @@ html#iubenda_policy,
     padding-bottom: 21px
 }
 #iubenda_policy .simple_pp>ul>li>ul .iconed {
-    padding-left: 40px;
+    padding-left: 10px;
     background-repeat: no-repeat;
     background-color: transparent;
     background-position-x: 2px;
@@ -1409,10 +1405,10 @@ html#iubenda_policy,
 }
 #iubenda_policy .iub_footer p {
     font-size: 11px;
-    padding: 0
+    padding: 0 0 0 15px;
 }
 #iubenda_policy .iub_content .iub_footer {
-    padding: 24px 0
+    /* padding: 24px 0; */
 }
 #iubenda_policy .iub_content .iub_footer .show_comp_link {
     display: block;
@@ -1642,7 +1638,7 @@ html#iubenda_policy,
 }
 #iubenda_policy.iubenda_fluid_policy .iub_container {
     margin-top: 30px;
-    margin-bottom: 30px
+    /* margin-bottom: 30px; */
 }
 #iubenda_policy.iubenda_fluid_policy .half_col:nth-child(2n+1)>* {
     margin-right: 0
@@ -1658,6 +1654,11 @@ html#iubenda_policy,
 #iubenda_policy.iubenda_fluid_policy .half_col>ul.for_boxes>li {
     clear: both;
     width: 100%
+}
+#iubenda_policy .iub_content .simple_pp a {
+	font-weight: bold;
+	text-decoration: none;
+	border-bottom: none;
 }
 #iubenda_policy.iubenda_fluid_policy .one_line_col>ul.for_boxes>li:nth-child(2n+1)>div,
 #iubenda_policy.iubenda_fluid_policy .half_col>ul.for_boxes>li:nth-child(2n+1)>div {
