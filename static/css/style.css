@@ -70,7 +70,7 @@ a {
     margin-top: 80px; }
     #wrapper #introcontent #lede {
       text-align: center;
-      background: url("/static/images/cheekd-logo-portrait.svg") no-repeat 50% 0;
+      background: url("static//images/cheekd-logo-portrait.svg") no-repeat 50% 0;
       background-size: 150px 150px;
       padding-top: 180px; }
       #wrapper #introcontent #lede h1 {
@@ -83,16 +83,20 @@ a {
     margin-top: 55px;
     font: 16px/26px "Helvetica Neue", Helvetica, Arial, sans-serif; }
     #wrapper #innercontent p {
-      margin-bottom: 20px; }
+      margin-bottom: 10px;
+	  line-height: 1.8;
+}
     #wrapper #innercontent ul {
-      margin: 0 0 20px 20px;
+      margin: 0 0 0 0;
       padding: 0 0 0 0; }
       #wrapper #innercontent ul li {
         margin-bottom: 10px; }
     #wrapper #innercontent h2 {
       font-weight: bold;
       color: #FFF;
-      margin: 30px 0 10px; }
+      margin: 30px 0 10px;
+	  text-transform: uppercase;
+}
     #wrapper #innercontent h1 {
       margin: 0 0 40px;
       font: 300 55px/70px 'Gotham Rounded SSm A', 'Gotham Rounded SSm B', 'Gotham Rounded', "Helvetica Neue",Helvetica,Arial,sans-serif;
@@ -116,12 +120,12 @@ a {
     text-transform: uppercase;
     color: #6a5f7b; }
     #footer a.Facebook {
-      background: url("/static/images/fb.png") no-repeat left 50%;
+      background: url("static//images/fb.png") no-repeat left 50%;
       background-size: 15px 15px;
       padding: 3px 0 3px 35px;
       margin-left: 20px; }
     #footer a.Twitter {
-      background: url("/static/images/twitter.png") no-repeat left 50%;
+      background: url("static//images/twitter.png") no-repeat left 50%;
       background-size: 18px 15px;
       padding: 3px 0 3px 20px; }
   #footer .Copyright {
@@ -156,7 +160,7 @@ a {
       padding-top: 80px;
       width: 100%;
       text-align: center;
-      background: url("/static/images/cheekd-logo-portrait.svg") no-repeat 50% top;
+      background: url("static//images/cheekd-logo-portrait.svg") no-repeat 50% top;
       background-size: 60px 58px; }
       #wrapper #iphone img {
         width: 75%; }
