@@ -104,8 +104,9 @@ a {
   #wrapper #footer {
     float: none;
     width: 100%;
-    word-spacing: 65px;
-    margin-top: 45px; }
+    word-spacing: 50px;
+    margin-top: 45px;
+    text-align: center;}
 
 #footer {
   margin-top: 120px;
