@@ -1229,10 +1229,9 @@ html#iubenda_policy,
     padding-top: 5px
 }
 #iubenda_policy h1 {
-    font-size: 19px;
-    font-weight: normal;
-    line-height: 23px;
-    margin-bottom: 5px
+    margin: 0 0 40px;
+    font: 300 55px/70px 'Gotham Rounded SSm A', 'Gotham Rounded SSm B', 'Gotham Rounded', "Helvetica Neue",Helvetica,Arial,sans-serif;
+    color: #b41e4a;
 }
 #iubenda_policy h2 {
     font-size: 17px;
